@@ -1,0 +1,79 @@
+# Protobuf
+
+- It provides a language neutral, platform neutral way to serialize data in forward & backward comaptible way.
+- Various types in Protobuf
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb964563-0d44-47e7-81f7-7fb14e48f147/Untitled.png)
+
+## Protobuf with Java
+
+- Define a message in `.proto` file. e.g. `TestData.proto`
+    
+    ```protobuf
+    message TestData {
+    	int32 int_data = 1;
+    	string string_data = 2;
+    }
+    ```
+    
+- Run proto compiler to generate java code for it
+    
+    ```bash
+    protoc -I=$SRC_DIR --java_out=$DEST_DIR $SRC_DIR/TestData.proto
+    ```
+    
+- Create an object for `TestData`
+    
+    ```java
+    TestData data = TestData.newBuilder().setIntData(1).setStringData("One").build();
+    ```
+    
+- To serialize it, convert to byte array or write to some stream
+    
+    ```java
+    // convert to bytes
+    var bytes = data.toByteArray();
+    
+    // OR, write to some stream
+    data.writeTo(new FileOutputStream("/tmp/data"));
+    ```
+    
+- To deserialize it, read it back from array or file
+    
+    ```java
+    // read from byte array
+    var data = TestData.parseFrom(bytes);
+    
+    // OR, read from some stream
+    var dataCopy = TestData.parseFrom(new FileInputStream("/tmp/data")); 
+    ```
+    
+
+### Questions I had in start
+
+- How code generation from `.proto` files work?
+    - `Protoc` is used to compile `.proto` file and generate language specifc code.
+    
+- How are objects serialized?
+    - Each field in object has an `id` & `type` . Serialization steps are
+    
+    - Every fields is serialized as `tag` & `value` pair
+    - `tag` is 1-4 byte where last 3 bits are `field type` and rest of bits are `id`. This means we cannot have field id more than 2^29 - 1.
+    - `value` is parsed based on `field type`.
+    - `varint` have variable length. First bit of each byte stores whether to include next byte in value or not. Rest of the bits are combined in little endian order and that stored value of field.
+        - An special case is `sint` which uses zigzag encoding to optimize for negative numbers.
+        - `Enum` are also encoded as int. At client side we can read corresponding enum value from `.proto`
+    - String & Objects have fixed length. In that case first byte stores length of that value and next `length` bytes store actual value being stored.
+    - Double has fixed length of 8 bytes. Float has fixed length of 4 bytes. These values are simply stored in float encoding in those many bytes.
+- What is the reason for space effieciency of protobuf?
+    - Most of efficiency comes from fact that it does not store field names along with the data. Field names are part of `.proto` file which is available at client end as well so it can easily do `field id` to field name mapping.
+    - For integers, it uses varint encoding that saves a lot fo space.
+- How does it maintain forward & backward compatibility?
+    - Don’t delete any required fields
+    - Don’t reuse already used tag numbers.
+- How can I compare size of same object in json and protobuf?
+  ```
+  // Generate instance of object using Builder methods
+  // use toByteArray to generate serialized version
+  // use length method to get size of data
+  ```

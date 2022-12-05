@@ -28,7 +28,7 @@ twitter_username: viksri
 github_username:  viksri
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 

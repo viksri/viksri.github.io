@@ -1,3 +1,11 @@
+---
+layout: page
+title: Protobuf
+permalink: /SerDes/Protobuf
+parent: SerDes
+nav_order: 2
+---
+
 # Protobuf
 
 - It provides a language neutral, platform neutral way to serialize data in forward & backward comaptible way.

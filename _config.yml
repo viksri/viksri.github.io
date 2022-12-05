@@ -51,3 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+aux_links:
+  "Blog posts":
+    - "//viksri.github.io/Posts"

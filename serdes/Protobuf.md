@@ -17,7 +17,7 @@ nav_order: 2
 
 - Define a message in `.proto` file. e.g. `TestData.proto`
     
-    ```protobuf
+    ```protobuf3
     message TestData {
     	int32 int_data = 1;
     	string string_data = 2;
@@ -57,7 +57,7 @@ nav_order: 2
     ```
     
 
-### Questions I had in start
+### Questions
 
 - How code generation from `.proto` files work?
     - `Protoc` is used to compile `.proto` file and generate language specifc code.
@@ -80,7 +80,7 @@ nav_order: 2
     - Don’t delete any required fields
     - Don’t reuse already used tag numbers.
 - How can I compare size of same object in json and protobuf?
-  ```
+  ```java
   // Generate instance of object using Builder methods
   // use toByteArray to generate serialized version
   // use length method to get size of data

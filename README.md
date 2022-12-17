@@ -1,6 +1,7 @@
-# Vikas Srivastava
+---
+layout: page
+title: readme
+permalink: /readme/
+---
 
-
-## Links
-- [Twitter](https://twitter.com/viksri)
-- [LinkedIn](https://www.linkedin.com/in/vikas-srivastava-47a6482b/)
+## Just READ a bit more

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: readme
-permalink: /readme/
+title: README
+permalink: /README/
 ---
 
-## Just READ a bit more
+**I am not yet sure what to write here but stay assured it will be something important.**

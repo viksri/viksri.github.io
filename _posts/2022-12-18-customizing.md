@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Bootstrap"
-date:   2022-12-17 17:19:05 +0530
+title:  "Customizing Jekyll website"
+date:   2022-12-18 15:03:05 +0530
 categories: jekyll
 ---
 

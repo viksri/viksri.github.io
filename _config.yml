@@ -25,9 +25,9 @@ github_username:  viksri
 permalink: /:categories/:title/
 
 header_pages:
- - about.md
- - categories.md
  - README.md
+ - Spanish.md
+ - tags.md
 
 
 # Build settings

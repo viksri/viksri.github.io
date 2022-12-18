@@ -22,9 +22,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: viksri
 github_username:  viksri
 
+permalink: /:categories/:title/
+
 header_pages:
  - about.md
  - README.md
+ - categories.md
 
 # Build settings
 markdown: kramdown

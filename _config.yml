@@ -28,7 +28,7 @@ header_pages:
  - README.md
  - Spanish.md
  - tags.md
-
+ - Wordle.md
 
 # Build settings
 markdown: kramdown

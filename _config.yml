@@ -26,8 +26,9 @@ permalink: /:categories/:title/
 
 header_pages:
  - about.md
- - README.md
  - categories.md
+ - README.md
+
 
 # Build settings
 markdown: kramdown

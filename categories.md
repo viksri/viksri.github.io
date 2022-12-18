@@ -5,20 +5,23 @@ title: Categories
 ---
 
 
-<div id="archives">
+<ul id="categories">
 {% for category in site.categories %}
-  <div class="archive-group">
+  <li class="category-list">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
 
-    <h3 class="category-head">{{ category_name }}</h3>
+    <h3>{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
+    <ul class="category-post-list">
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    <article>
+      <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+      </li>
     </article>
     {% endfor %}
-  </div>
+    </ul>
+  </li>
 {% endfor %}
-</div>
+</ul>

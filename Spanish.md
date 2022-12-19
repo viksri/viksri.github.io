@@ -13,4 +13,10 @@ This is to document new words I learn
 - `Patatas fritas` : Fried Potatoes(Fries)
 - `El postres` : The desserts
 - `Quisiera` : I would like to
-- `frita/frito` : Fried
+- `Frita/Frito` : Fried
+
+### 19-12-2022
+- `La vida` : The lifetime
+- `La rica` : The rich
+- `El jardine` : The garden
+- `El estanterio` : The bookshelf

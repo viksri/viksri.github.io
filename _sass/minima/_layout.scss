@@ -310,7 +310,14 @@
   font-size: 13px;
   text-decoration: none;
   color: $background-color;
+
+  &:visited {
+      color: $background-color;
+      background-color: darken($site-title-color, 20%);
+  }
 }
+
+
 
 .cloud {
   list-style-type: none;

@@ -121,7 +121,7 @@ a {
   }
 
   &:hover {
-    color: $link-hover-color;
+    color: $site-title-color;
     text-decoration: underline;
   }
 
@@ -166,6 +166,7 @@ code {
   border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
+  color: #ffffff;
 }
 
 code {
@@ -193,24 +194,26 @@ pre {
   }
 }
 
-
-
 /**
- * Wrapper
+ * Wrapper`
  */
-.wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}) - 300);
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-  @extend %clearfix;
-
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+.header-wrapper {
+    margin-left: $lsidebar-width + $spacing-unit;
+    margin-right: $lsidebar-width + $spacing-unit;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-  }
+    @extend %clearfix;
+    //    position: fixed;
+}
+
+.wrapper {
+    margin-right: $lsidebar-width + $spacing-unit;
+    margin-left: $lsidebar-width + $spacing-unit;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  border-left: 2px double $border-color-01;
+  min-height: 820px;
+  @extend %clearfix;
 }
 
 

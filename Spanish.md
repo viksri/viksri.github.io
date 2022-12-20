@@ -20,3 +20,11 @@ This is to document new words I learn
 - `La rica` : The rich
 - `El jardine` : The garden
 - `El estanterio` : The bookshelf
+
+### 20-12-2022
+- `La nevera` : The refridgerator
+- `La sala` : The living room
+- `La cama` : The bed
+- `La silla` : The chair
+
+

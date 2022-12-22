@@ -7,10 +7,12 @@ categories: Language
 
 I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This page is for documenting, how I did everyday.
 
-|    Date    | Puzzle | Wordle solution | Score |
-|:----------:|:------:|:---------------:|:-----:|
-| 18-12-2022 | 547 | TAPER | (4/6) |
-| 19-12-2022 | 548 | SLATE | (3/6) |
-| 20-12-2022 | 549 | THIRD | (3/6) |
-| 21-12-2022 | 550 | LUNAR | (4/6) |
+|    Date    | Puzzle | Wordle solution | Score | Meaning |
+|:----------:|:------:|:---------------:|:-----:|:-------:|
+| 18-12-2022 | 547 | TAPER | (4/6) | Reduce in thickness |
+| 19-12-2022 | 548 | SLATE | (3/6) | Dark rock |
+| 20-12-2022 | 549 | THIRD | (3/6) | After second |
+| 21-12-2022 | 550 | LUNAR | (4/6) | Moon related |
+| 22-12-2022 | 551 | EXCEL | (5/6) | To win |
+| 23-12-2022 | 552 | AORTA | (6/6) | Main artery |
 

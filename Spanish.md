@@ -27,4 +27,12 @@ This is to document new words I learn
 - `La cama` : The bed
 - `La silla` : The chair
 
+### 21-12-2022
+- `La ventana` : The window
+- `El habitaciónes` : The bedroom
+- `sobre` : on / above
+- `otra` : other / another
+- `otra vez` : again
 
+### 22-12-2022
+- `debajo de` : down / under

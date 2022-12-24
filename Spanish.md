@@ -36,3 +36,16 @@ This is to document new words I learn
 
 ### 22-12-2022
 - `debajo de` : down / under
+
+### 23-12-2022
+- `la tarea` : the homework
+- `sobre que` : about
+- `conocer` : to know 
+
+### 24-12-2022
+- `la bebida` : the drink
+- `la cuchera` : the spoon
+- `el cuchillo` : the knife
+- `el tendor` : the fork
+- `vino blanco` : white wine
+- `vino tinito` : red wine

@@ -6,6 +6,9 @@ layout: home
 title: About me
 ---
 
-This is Vikas Srivastava. Blah blah blah
+![Vikas Srivastava](./assets/image.jpeg)
 
-I will add details later.
+
+**Hi, I am Vikas Srivastava!**
+
+I am engineering manager at [Loconav](https://loconav.com/). 

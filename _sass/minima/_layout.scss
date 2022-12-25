@@ -343,15 +343,15 @@
   line-height: 2.5rem;
 }
 
-.cloud p[data-weight="1"] { --color: #bedead; --font: 10px}
-.cloud p[data-weight="2"] { --color: #00d1e5; --font: 12px}
-.cloud p[data-weight="3"] { --color: #fabfeb; --font: 14px}
-.cloud p[data-weight="4"] { --color: #c0ffee; --font: 16px}
-.cloud p[data-weight="5"] { --color: #de10ad; --font: 18px}
-.cloud p[data-weight="6"] { --color: #acce55; --font: 20px}
-.cloud p[data-weight="7"] { --color: #5ec09d; --font: 22px}
-.cloud p[data-weight="8"] { --color: #ba11ad; --font: 24px}
-.cloud p[data-weight="9"] { --color: #123456; --font: 26px}
+.cloud a[data-weight="1"] { --color: #bedead; --font: 12px}
+.cloud a[data-weight="2"] { --color: #00d1e5; --font: 14px}
+.cloud a[data-weight="3"] { --color: #fabfeb; --font: 16px}
+.cloud a[data-weight="4"] { --color: #c0ffee; --font: 18px}
+.cloud a[data-weight="5"] { --color: #de10ad; --font: 20px}
+.cloud a[data-weight="6"] { --color: #acce55; --font: 22px}
+.cloud a[data-weight="7"] { --color: #5ec09d; --font: 24px}
+.cloud a[data-weight="8"] { --color: #ba11ad; --font: 26px}
+.cloud a[data-weight="9"] { --color: #123456; --font: 28px}
 
 .cloud a {
     --size: 4;
@@ -403,6 +403,14 @@ aside#sidebar {
     font-size: 12px;
     line-height: 1.3;
     position: fixed;
+}
+
+aside#rsidebar {
+    float: right;
+    width: $lsidebar-width;
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 1.3;
 }
 
 aside#sidebar p.repo-owner,

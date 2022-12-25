@@ -2,7 +2,6 @@
 layout: page
 title: README
 permalink: /README/
-categories: uncategorized
 ---
 
 ![image](/assets/logo2.png)

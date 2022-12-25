@@ -6,30 +6,60 @@
   <body>
 
     {%- include header.html -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
     <main class="page-content" aria-label="Content">
       <aside id="sidebar">
         {%- if site.posts.size > 0 -%}
             <h2 class="post-list-heading">Recent posts</h2>
             {%- for post in site.posts -%}
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
                     <a class="post-link" href="{{ post.url | relative_url }}">
                         {{ post.title | escape }}
                     </a>
                     <br>
-<!--                    {% for category in post.categories %}-->
-<!--                        <small>{{ category | escape}}</small>-->
-<!--                    {% endfor %}-->
                {%- if site.show_excerpts -%}
                 {{ post.excerpt }}
                {%- endif -%}
             {%- endfor -%}
         {%- endif -%}
       </aside>
+      {% if post %}
+        {% assign categories = post.categories %} 
+        {% assign title = post.title %}
+      {% else %}
+        {% assign categories = page.categories %}
+        {% assign title = page.title %}
+      {% endif %}
+      {%- if categories.size > 0 -%}
+      <aside id="rsidebar">
+            <h2 class="post-list-heading">Related pages</h2>
+            {%- for category in categories -%}
+                {% for related in site.categories[category] %}
+                  {% unless title == related.title %}
+                    <span class="post-meta">{{ related.date | date: date_format }}</span>
+                    <a class="post-link" href="{{ site.baseurl }}{{ related.url }}"> {{ related.title }}</a>
+                    <br>
+                  {% endunless %}  
+                {% endfor %}
+                {%- for document in site.pages -%}
+                  {% if document.categories contains category %}
+                    {% if category.name != "" %}
+                      {% unless title == document.title %}
+                        <a class="post-link" href="{{ site.baseurl }}{{ document.url }}"> {{ document.title }}</a>
+                        <br>
+                      {% endunless %}
+                    {% endif %}
+                  {% endif %}
+                {%- endfor -%}
+            {%- endfor -%}
+      </aside>  
+     {%- endif -%}
+
       <div class="wrapper">
         {{ content }}
       </div>
+
     </main>
 
     {%- include footer.html -%}

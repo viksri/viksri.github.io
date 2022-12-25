@@ -399,7 +399,7 @@
 aside#sidebar {
     float: left;
     width: $lsidebar-width;
-    padding-left: 30px;
+    padding-left: $spacing-unit;
     font-size: 12px;
     line-height: 1.3;
     position: fixed;
@@ -411,6 +411,8 @@ aside#rsidebar {
     padding-left: 30px;
     font-size: 12px;
     line-height: 1.3;
+    position: fixed;
+    margin-left: $content-width + $lsidebar-width + 7 * $spacing-unit;
 }
 
 aside#sidebar p.repo-owner,

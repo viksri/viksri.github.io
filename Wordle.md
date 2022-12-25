@@ -2,7 +2,7 @@
 layout: post
 title: "Wordle"
 permalink: /wordle/
-categories: Language
+categories: language
 ---
 
 I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This page is for documenting, how I did everyday.

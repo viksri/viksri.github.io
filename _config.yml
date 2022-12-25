@@ -23,7 +23,19 @@ twitter_username: viksri
 github_username:  viksri
 linkedin_username: viksri24
 
-permalink: /:categories/:title/
+permalink: /:title/
+
+collections:
+  tags:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: tags
+    values:
+      layout: "tags"
 
 header_pages:
  - README.md

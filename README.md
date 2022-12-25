@@ -2,7 +2,7 @@
 layout: page
 title: README
 permalink: /README/
-categories: Uncategorized
+categories: uncategorized
 ---
 
 ![image](/assets/logo2.png)

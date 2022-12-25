@@ -15,10 +15,10 @@ layout: default
         {% assign categories = page.categories %}
         {% endif %}
         {% for category in categories %}
-            <a class="btn" href="{{site.baseurl}}/tags/#{{ category | slugize}}">{{category}}</a>
+            <a class="btn" href="{{site.baseurl}}/tags/{{ category | slugize}}">{{category}}</a>
         {% unless forloop.last %}{% endunless %}
         {% endfor %}
-      </time>
+      </time> 
 
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>

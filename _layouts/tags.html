@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="blog list">
+    <h1>#{{ page.tag }}</h1>
+
+    <ul>
+    {% for post in site.categories[page.tag] %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a>
+      </li>
+    {% endfor %}
+    {%- for document in site.pages -%}
+        {% if document.categories contains page.tag %}
+          {% if tag.name != "" %}
+          <li>
+            <a href="{{ site.baseurl }}{{ document.url }}"> {{ document.title }}</a>
+          </li>
+          {% endif %}
+        {% endif %}
+    {%- endfor -%}
+    </ul>
+</div>

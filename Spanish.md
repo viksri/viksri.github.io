@@ -2,7 +2,7 @@
 layout: post
 title: "Spanish"
 permalink: /spanish/
-categories: Language
+categories: language
 ---
 
 This is to document new words I learn

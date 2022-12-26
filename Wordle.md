@@ -17,3 +17,4 @@ I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This p
 | 23-12-2022 | 552 | AORTA | (6/6) | Main artery |
 | 24-12-2022 | 553 | POISE | (4/6) | Quality of grace |
 | 25-12-2022 | 554 | EXTRA | (5/6) | Surplus |
+| 26-12-2022 | 555 | JUDGE | (5/6) | To decide |

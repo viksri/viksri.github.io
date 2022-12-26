@@ -5,7 +5,7 @@ permalink: /spanish/
 categories: language
 ---
 
-This is to document new words I learn
+This is to document new words that I learn on [duolingo](https://www.duolingo.com/profile/viksri)
 
 ### 18-12-2022
 - `La sopa` : The soup
@@ -49,3 +49,10 @@ This is to document new words I learn
 - `el tendor` : the fork
 - `vino blanco` : white wine
 - `vino tinito` : red wine
+
+### 25-12-2022
+- `Quisiera` : I would like to
+- `El postres` : The desserts
+
+### 26-12-2022
+- `Puedes traer` : Can you bring

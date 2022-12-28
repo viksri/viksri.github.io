@@ -18,3 +18,6 @@ I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This p
 | 24-12-2022 | 553 | POISE | (4/6) | Quality of grace |
 | 25-12-2022 | 554 | EXTRA | (5/6) | Surplus |
 | 26-12-2022 | 555 | JUDGE | (5/6) | To decide |
+| 27-12-2022 | 556 | CONDO | (4/6) | Rental accomodation |
+| 28-12-2022 | 557 | IMPEL | (5/6) | To force to do something |
+| 29-12-2022 | 558 | HAVOC | (3/6) | Destruction |

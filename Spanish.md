@@ -56,3 +56,11 @@ This is to document new words that I learn on [duolingo](https://www.duolingo.co
 
 ### 26-12-2022
 - `Puedes traer` : Can you bring
+
+### 27-12-2022
+- `frijoles` : beans
+
+### 28-12-2022
+- `al lado de` : next to
+- `lejos de` : far from
+- `cerca de` : close to

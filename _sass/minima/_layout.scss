@@ -1,14 +1,21 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 /**
  * Site header
  */
 .site-header {
   border-top: 5px solid $border-color-03;
   border-bottom: 2px double $border-color-01;
-  min-height: $spacing-unit * 1.865;
+  width: $content-width + 8 * $spacing-unit + 2 * $lsidebar-width;
+  height: $header-height;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  display: grid;
 }
 
 .site-title {
@@ -29,14 +36,12 @@
 }
 
 .site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit;
   background-color: $background-color;
-  border: 1px solid $border-color-01;
   border-radius: 5px;
   float: right;
   text-align: right;
+  position: relative;
+  flex-grow: 3;
 
   .nav-trigger {
     display: none;
@@ -139,7 +144,10 @@
   margin-left: 0;
 }
 
-.footer-col-wrapper,
+.footer-col-wrapper {
+  width: $content-width + 4 * $spacing-unit;
+  align-items: center;
+}
 .social-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
@@ -149,26 +157,29 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-.footer-col-1,
-.footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
+.footer-col-1{
+  flex-grow: 1;
 }
 
-.footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
+.footer-col-2{
+    flex-grow: 2;
+}
+
+.footer-col-3{
+    flex-grow: 1;
 }
 
 @media screen and (min-width: $on-large) {
   .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
+      flex-grow: 1;
   }
 
   .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
+      flex-grow: 2;
   }
 
   .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
+      flex-grow: 1;
   }
 }
 
@@ -178,7 +189,6 @@
   }
 
   .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
     padding: 0 ($spacing-unit / 2);
 
     &:first-child {
@@ -199,7 +209,9 @@
  * Page content
  */
 .page-content {
+  margin-top: $header-height;
   padding: $spacing-unit 0;
+  display: flex;
   flex: 1;
 }
 

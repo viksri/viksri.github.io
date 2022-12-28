@@ -202,7 +202,12 @@ pre {
     margin-right: $lsidebar-width + $spacing-unit;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    width: $content-width + 4 * $spacing-unit;
     @extend %clearfix;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $background-color;
     //    position: fixed;
 }
 

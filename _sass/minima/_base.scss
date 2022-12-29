@@ -219,6 +219,7 @@ pre {
   border-left: 2px double $border-color-01;
   border-right: 2px double $border-color-01;
   min-height: 820px;
+  width: $content-width + 3 * $spacing-unit;
   @extend %clearfix;
 }
 

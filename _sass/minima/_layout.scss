@@ -212,7 +212,6 @@
   margin-top: $header-height;
   padding: $spacing-unit 0;
   display: flex;
-  flex: 1;
 }
 
 .page-heading {
@@ -424,7 +423,7 @@ aside#rsidebar {
     font-size: 12px;
     line-height: 1.3;
     position: fixed;
-    margin-left: $content-width + $lsidebar-width + 7 * $spacing-unit;
+    margin-left: $content-width + $lsidebar-width + 6 * $spacing-unit;
 }
 
 aside#sidebar p.repo-owner,

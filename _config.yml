@@ -22,6 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: viksri
 github_username:  viksri
 linkedin_username: viksri24
+rss: RSS
 
 permalink: /:title/
 

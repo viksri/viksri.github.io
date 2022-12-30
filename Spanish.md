@@ -64,3 +64,8 @@ This is to document new words that I learn on [duolingo](https://www.duolingo.co
 - `al lado de` : next to
 - `lejos de` : far from
 - `cerca de` : close to
+
+### 30-12-2022
+- `en media hora` : In half an hour
+- `a los siete` : At seven
+- `todos los dias` : Every day 

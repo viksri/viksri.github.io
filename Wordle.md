@@ -21,3 +21,4 @@ I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This p
 | 27-12-2022 | 556 | CONDO | (4/6) | Rental accomodation |
 | 28-12-2022 | 557 | IMPEL | (5/6) | To force to do something |
 | 29-12-2022 | 558 | HAVOC | (3/6) | Destruction |
+| 30-12-2022 | 559 | MOLAR | (3/6) | Teeth |

@@ -1,74 +1,12 @@
 ---
-layout: post
+layout: page
 title: "Spanish"
 permalink: /spanish/
 categories: language
+children: ["Spanish: Dec 2022"]
 ---
 
-This is to document new words that I learn on [duolingo](https://www.duolingo.com/profile/viksri)
-
-### 18-12-2022
-- `La sopa` : The soup
-- `La patata` : The potato
-- `Patatas fritas` : Fried Potatoes(Fries)
-- `El postres` : The desserts
-- `Quisiera` : I would like to
-- `Frita/Frito` : Fried
-
-### 19-12-2022
-- `La vida` : The lifetime
-- `La rica` : The rich
-- `El jardine` : The garden
-- `El estanterio` : The bookshelf
-
-### 20-12-2022
-- `La nevera` : The refridgerator
-- `La sala` : The living room
-- `La cama` : The bed
-- `La silla` : The chair
-
-### 21-12-2022
-- `La ventana` : The window
-- `El habitaciónes` : The bedroom
-- `sobre` : on / above
-- `otra` : other / another
-- `otra vez` : again
-
-### 22-12-2022
-- `debajo de` : down / under
-
-### 23-12-2022
-- `la tarea` : the homework
-- `sobre que` : about
-- `conocer` : to know 
-
-### 24-12-2022
-- `la bebida` : the drink
-- `la cuchera` : the spoon
-- `el cuchillo` : the knife
-- `el tendor` : the fork
-- `vino blanco` : white wine
-- `vino tinito` : red wine
-
-### 25-12-2022
-- `Quisiera` : I would like to
-- `El postres` : The desserts
-
-### 26-12-2022
-- `Puedes traer` : Can you bring
-
-### 27-12-2022
-- `frijoles` : beans
-
-### 28-12-2022
-- `al lado de` : next to
-- `lejos de` : far from
-- `cerca de` : close to
-
-### 30-12-2022
-- `en media hora` : In half an hour
-- `a los siete` : At seven
-- `todos los dias` : Every day
-
-### 31-12-2022
-- `nuestras/nuestros` : Ours 
+<ul>
+    <li>    <a href="{{ site.baseurl }}/dec-2022">{{ "Spanish: Dec 2022" }}</a>
+    </li>
+</ul>

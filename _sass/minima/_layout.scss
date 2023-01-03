@@ -7,11 +7,11 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
-  border-bottom: 1px dashed $border-color-01;
+    border-top: 5px solid $dm-table-header-border;
   width: $content-width + 8 * $spacing-unit + 2 * $lsidebar-width;
   height: $header-height;
   line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: $dm-table-header-bg-color;
 
   // Positioning context for the mobile navigation icon
   position: fixed;
@@ -24,6 +24,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  padding-left: $spacing-unit;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -33,6 +34,13 @@
   &:visited {
     color: $site-title-color;
   }
+}
+
+.site-logo {
+    width: 0.41 * $lsidebar-width;
+//    height: $header-height;
+    padding-left: 2 *  $spacing-unit;
+    padding-right: 2.6 * $spacing-unit;
 }
 
 .site-nav {
@@ -125,8 +133,11 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px dashed $border-color-01;
-  padding: $spacing-unit 0;
+  padding-top: 0.3 * $spacing-unit;
+  padding-botom: 0.3 * $spacing-unit;
+  background-color: $dm-table-header-bg-color;
+  border-top: 5px solid $dm-table-border-color;
+  position: relative;
 }
 
 .footer-heading {
@@ -154,7 +165,6 @@
 }
 
 .footer-col {
-  margin-bottom: $spacing-unit / 2;
 }
 
 .footer-col-1{

@@ -229,9 +229,10 @@ pre {
     margin-left: $lsidebar-width + $spacing-unit;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-  border-left: 1px dashed $border-color-01;
-  border-right: 1px dashed $border-color-01;
-  min-height: 900px;
+  padding-top: 0.7 * $spacing-unit;
+  border-left: 2px solid $border-color-01;
+  border-right: 2px solid $border-color-01;
+  min-height: 85vh;
   width: $content-width + 3 * $spacing-unit;
   @extend %clearfix;
 }

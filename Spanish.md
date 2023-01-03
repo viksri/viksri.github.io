@@ -68,4 +68,7 @@ This is to document new words that I learn on [duolingo](https://www.duolingo.co
 ### 30-12-2022
 - `en media hora` : In half an hour
 - `a los siete` : At seven
-- `todos los dias` : Every day 
+- `todos los dias` : Every day
+
+### 31-12-2022
+- `nuestras/nuestros` : Ours 

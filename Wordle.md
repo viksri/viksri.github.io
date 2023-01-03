@@ -22,3 +22,5 @@ I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This p
 | 28-12-2022 | 557 | IMPEL | (5/6) | To force to do something |
 | 29-12-2022 | 558 | HAVOC | (3/6) | Destruction |
 | 30-12-2022 | 559 | MOLAR | (3/6) | Teeth |
+| 31-12-2022 | 560 | MANLY | (4/6) | Like a man |
+| 01-01-2023 | 561 | WHINE | (4/6) | To complain annoyingly | 

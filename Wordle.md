@@ -7,6 +7,8 @@ categories: language
 
 I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This page is for documenting, how I did everyday.
 
+### December 2022
+
 |    Date    | Puzzle | Wordle solution | Score | Meaning |
 |:----------:|:------:|:---------------:|:-----:|:-------:|
 | 18-12-2022 | 547 | TAPER | (4/6) | Reduce in thickness |
@@ -23,4 +25,12 @@ I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This p
 | 29-12-2022 | 558 | HAVOC | (3/6) | Destruction |
 | 30-12-2022 | 559 | MOLAR | (3/6) | Teeth |
 | 31-12-2022 | 560 | MANLY | (4/6) | Like a man |
-| 01-01-2023 | 561 | WHINE | (4/6) | To complain annoyingly | 
+
+### January 2023
+
+|    Date    | Puzzle | Wordle solution | Score | Meaning |
+|:----------:|:------:|:---------------:|:-----:|:-------:|
+| 01-01-2023 | 561 | WHINE | (4/6) | To complain annoyingly |
+| 02-01-2023 | 562 | SKIRT | (4/6) | Dress |
+| 03-01-2023 | 563 | ANTIC | (3/6) | Old |
+| 04-01-2023 | 564 | LAYER | (6/6) | Thin sheet of substance |

@@ -11,7 +11,7 @@
   width: $content-width + 8 * $spacing-unit + 2 * $lsidebar-width;
   height: $header-height;
   line-height: $base-line-height * $base-font-size * 2.25;
-  background-color: $dm-table-header-bg-color;
+  background-color: $dm-table-zebra-color;
 
   // Positioning context for the mobile navigation icon
   position: fixed;
@@ -46,96 +46,61 @@
 .site-nav {
   background-color: $background-color;
   border-radius: 5px;
-  float: right;
-  text-align: right;
-  position: relative;
-  display: inline;
+//  float: right;
+//  position: relative;
+//  display: inline;
   flex-grow: 3;
-
-  .nav-trigger {
-    display: none;
-  }
-
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg path {
-      fill: $border-color-03;
-    }
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  input ~ .trigger {
-    clear: both;
-    display: none;
-  }
-
-  input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
+  overflow: hidden;
 
   .page-link {
     color: $site-title-color;
     line-height: $base-line-height;
-    width: 50px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    float: right;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: right;
+    font-weight: 200;
   }
 
   .page-dropdown {
       color: $site-title-color;
-      background-color: $dm-table-header-bg-color;
+      background-color: $dm-table-zebra-color;
       line-height: $base-line-height;
-      positon: inherit;
-      display: inline;
-      padding: 0;
+      float: right;
+      overflow: hidden;
+//      positon: inherit;
+//      display: inline;
+      margin-right: 15px;
+      margin-top: 15px;
+      text-align: right;
 
-      // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-        margin-right: 20px;
+
+    &:hover .dropdown-content {
+        background-color: $dm-table-header-bg-color;
+        display: block;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        float: right;
     }
-
-//    &:hover .dropdown-content {
-//        display: block;
-//        position: absolute;
-//        min-width: 160px;
-//        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-//        z-index: 1;
-//        float: right;
-//    }
   }
 
- .trigger {
-      display: inline;
+ .site-nav a {
   }
 
  .dropdown-btn {
       color: $site-title-color;
-      background-color: $dm-table-header-bg-color;
+      background-color: $dm-table-zebra-color;
       line-height: $base-line-height;
       border: none;
       font-size: 15px;
       positon: absolute;
       display: inline;
       padding: 0;
-      margin: 0;
+      margin-left: 5px;
       font-family: $base-font-family;
 
       &:hover {
@@ -145,12 +110,19 @@
   }
 
  .dropdown-content {
+      background-color: $dm-table-header-bg-color;
       display: none;
       position: absolute;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      float:right;
+      float:left;
+  }
+
+  .dropdown-content .page-link {
+      margin-top: 2px;
+      margin-left: 5px;
+      margin-bottom: 3px;
   }
 
   @media screen and (min-width: $on-medium) {
@@ -175,9 +147,7 @@
       display: inline;
       padding: 0;
 
-      &:not(:last-child) {
-        margin-right: 20px;
-      }
+      margin-right: 15px;
       margin-left: auto;
     }
   }

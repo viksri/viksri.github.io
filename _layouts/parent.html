@@ -1,0 +1,11 @@
+---
+layout: post
+---
+
+{{ content }}
+<ul>
+    {%- for child in page.children -%}
+        {%- assign child_page = site.pages | where: "title", child | first -%}
+        <li><a class="page-link" href="{{ child_page.permalink }}">{{ child_page.title | escape }}</a></li>
+    {%- endfor -%}
+</ul>

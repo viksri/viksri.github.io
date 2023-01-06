@@ -220,7 +220,7 @@ pre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: $dm-table-header-bg-color;
+    background-color: $dm-table-zebra-color;
     //    position: fixed;
 }
 
@@ -230,8 +230,8 @@ pre {
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   padding-top: 0.7 * $spacing-unit;
-  border-left: 2px solid $border-color-01;
-  border-right: 2px solid $border-color-01;
+  border-left: 1px solid $dm-table-header-bg-color;
+  border-right: 1px solid $dm-table-header-bg-color;
   min-height: 85vh;
   width: $content-width + 3 * $spacing-unit;
   @extend %clearfix;

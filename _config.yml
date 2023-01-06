@@ -29,6 +29,7 @@ permalink: /:title/
 collections:
   tags:
     output: true
+    
 
 defaults:
   -

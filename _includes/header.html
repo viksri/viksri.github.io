@@ -13,7 +13,7 @@
             {%- if my_page.title -%}
                 {%- if my_page.children -%}
                     <div class="page-dropdown">
-                        <a class="dropdown-btn" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                        <a class="dropdown-btn" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} &#9660;</a>
                         <div class="dropdown-content">
                             {%- for child in my_page.children -%}
                             {%- assign child_page = site.pages | where: "title", child | first -%}

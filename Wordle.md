@@ -2,35 +2,12 @@
 layout: post
 title: "Wordle"
 permalink: /wordle/
-categories: language
+children: ["Wordle: Dec 2022", "Wordle: Jan 2023"]
 ---
 
 I like solving [Wordle](https://www.nytimes.com/games/wordle/index.html). This page is for documenting, how I did everyday.
 
-### December 2022
-
-|    Date    | Puzzle | Wordle solution | Score | Meaning |
-|:----------:|:------:|:---------------:|:-----:|:-------:|
-| 18-12-2022 | 547 | TAPER | (4/6) | Reduce in thickness |
-| 19-12-2022 | 548 | SLATE | (3/6) | Dark rock |
-| 20-12-2022 | 549 | THIRD | (3/6) | After second |
-| 21-12-2022 | 550 | LUNAR | (4/6) | Moon related |
-| 22-12-2022 | 551 | EXCEL | (5/6) | To win |
-| 23-12-2022 | 552 | AORTA | (6/6) | Main artery |
-| 24-12-2022 | 553 | POISE | (4/6) | Quality of grace |
-| 25-12-2022 | 554 | EXTRA | (5/6) | Surplus |
-| 26-12-2022 | 555 | JUDGE | (5/6) | To decide |
-| 27-12-2022 | 556 | CONDO | (4/6) | Rental accomodation |
-| 28-12-2022 | 557 | IMPEL | (5/6) | To force to do something |
-| 29-12-2022 | 558 | HAVOC | (3/6) | Destruction |
-| 30-12-2022 | 559 | MOLAR | (3/6) | Teeth |
-| 31-12-2022 | 560 | MANLY | (4/6) | Like a man |
-
-### January 2023
-
-|    Date    | Puzzle | Wordle solution | Score | Meaning |
-|:----------:|:------:|:---------------:|:-----:|:-------:|
-| 01-01-2023 | 561 | WHINE | (4/6) | To complain annoyingly |
-| 02-01-2023 | 562 | SKIRT | (4/6) | Dress |
-| 03-01-2023 | 563 | ANTIC | (3/6) | Old |
-| 04-01-2023 | 564 | LAYER | (6/6) | Thin sheet of substance |
+<ul>
+    <li><a href="{{ page.baseurl }}/wordle/dec-2022">{{ "Wordle: Dec 2022" }}</a></li>
+    <li><a href="{{ site.baseurl }}/wordle/jan-2023">{{ "Wordle: Jan 2023" }}</a></li>
+</ul>

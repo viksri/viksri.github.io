@@ -3,6 +3,8 @@ layout: post
 ---
 
 {{ content }}
+
+<h2>Child pages</h2>
 <ul>
     {%- for child in page.children -%}
         {%- assign child_page = site.pages | where: "title", child | first -%}

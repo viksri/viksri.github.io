@@ -44,6 +44,7 @@ header_pages:
  - Spanish.md
  - tags.md
  - Wordle.md
+ - Reads.md
 
 # Build settings
 markdown: kramdown
